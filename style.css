@@ -95,6 +95,7 @@ main > * {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    margin-left: 2%;
   }
   .airplane-card {
     width: 84%;
@@ -105,6 +106,7 @@ main > * {
   }
   h1 {
     text-align: start;
+    
   }
   
 }
