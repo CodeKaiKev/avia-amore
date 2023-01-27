@@ -75,17 +75,19 @@ main > * {
   .airplane-list-container {
     
     flex-direction: column;
-    width: 80%;
-    margin-left: -1%;
-    align-items: center;
+    width: 90%;
+    padding: 0%;
+    /*margin-left: 10%;*/
+    
+   
+    
     
   }
   body {
-    font-family: 'architects daughter', cursive;
+ 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: rgb(245, 231, 225);
+    
     height: 100vh;
   }
   header {
@@ -95,7 +97,11 @@ main > * {
     justify-content: flex-start;
   }
   .airplane-card {
-    width: 90%;
+    width: 84%;
+   
+    margin-bottom: 10px;
+    align-items: flex-start;
+    
   }
   h1 {
     text-align: start;
